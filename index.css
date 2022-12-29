@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: Poppins, sans-serif;
+    text-align: center;
+    background-color: #D00000;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.score {
+    background-color: #FAA307;
+    padding: 20px 50px 50px 50px;
+    border: 10px solid #E85D04;
+    border-radius: 15px;
+}
+
+button {
+    font-size: 20;
+    font-weight: bold;
+    text-shadow: 0 0 2px black;
+    padding: 10px;
+    margin: 0 4px;
+    border: 2px solid #ADB5BD;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+h3 {
+    font-size: 30;
+}
+
+h1 {
+    font-size: 60;
+    margin: -20px 0;
+}
+
+#reset-btn {
+    margin-top: -5px;
+}
